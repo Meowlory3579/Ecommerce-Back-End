@@ -23,11 +23,8 @@ Product.init(
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
       validate: {
-        is: {
-          args: /^\d+(\.\d+)?$/, // Regex pattern for decimal numbers -- maybe use isnumeric instead?
-          msg: "Price must be a valid decimal number." // Custom error message
-        }
-      }
+        isDecimal: true,
+      },
     },
     stock: {
       type: DataTypes.INTEGER,
