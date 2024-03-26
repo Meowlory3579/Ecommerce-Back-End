@@ -35,7 +35,7 @@ This application requires the dotenv package. To install dotenv, navigate to you
 Right-click on the "server.js" file and select "Open in Integrated Terminal". To seed the database, enter "npm run seed" and press enter. To initiate application, type "node server.js" and press enter.
 
 ## The following video demonstrates the application's functionality
-[Pending]
+https://drive.google.com/file/d/19zbptBNp0QuTHlvibDxJaXI10aTMCv4A/view?usp=sharing
 
 ## Credits
 Started Code Sourced From: https://github.com/coding-boot-camp/fantastic-umbrella
